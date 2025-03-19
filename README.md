@@ -19,11 +19,6 @@
 
 ---
 
-## 🖥️ GUI Preview
-![GUI Preview](https://via.placeholder.com/400x300.png?text=Digits+Recognizer+GUI)
-
----
-
 ## 🛠️ Installation & Setup
 
 ### 🔧 Prerequisites
