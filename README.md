@@ -14,7 +14,7 @@
 ---
 
 ## 📂 Project Structure
-- `digits_recognizer.py` → Main script containing GUI and ML model  
+- `digits.py` → Main script containing GUI and ML model  
 - Uses **Scikit-Learn**, **Tkinter**, **OpenCV**, and **Matplotlib**  
 
 ---
