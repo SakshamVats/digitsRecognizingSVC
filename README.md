@@ -1,41 +1,36 @@
-# 🧠 Neural Network Implementation using NumPy  
+# 🔢 Digits Recognizer using Support Vector Classifier (SVC)
 
-A simple **feedforward neural network** built from scratch using **NumPy**. The model is trained to classify images of **cats, dogs, and mice** using randomly generated feature data.  
-
----
-
-## 📌 Features  
-- **Customizable Parameters**: Epochs, learning rate, and architecture settings are defined as global variables.  
-- **One-Hot Encoding**: Converts categorical labels into one-hot vectors for multi-class classification.  
-- **Hidden Layer**: 4 neurons in a single hidden layer.  
-- **Output Layer**: 3 neurons for classification (Cat, Dog, Mouse).  
-- **Optimized Training**: Uses **Softmax activation** for output and **Sigmoid activation** for hidden layers.  
-- **Randomized Initialization**: Weights and biases are initialized randomly.  
+🚀 A **Tkinter-based** interactive application that allows users to **draw a digit** and get predictions using a **Support Vector Classifier (SVC)** trained on the **Scikit-Learn Digits dataset**.
 
 ---
 
-## 📂 Project Structure  
-- **`neural_net.py`** → Main script implementing the neural network.  
-- **Generated Data** → Simulated dataset representing cat, dog, and mouse images.  
-- **Training Process** → Implements **feedforward propagation, backpropagation, and gradient descent**.  
-- **Plotting Option** → Scatter plot visualization of generated data.  
+## 📌 Features
+✅ **Interactive GUI** → Draw a digit on the canvas and predict it  
+✅ **Machine Learning Model** → Uses **Support Vector Machine (SVM)** for classification  
+✅ **Real-time Inference** → Get instant predictions with a button click  
+✅ **Data Visualization** → Displays sample digits from the dataset  
+✅ **Scikit-Learn & OpenCV Integration**  
 
 ---
 
-## 🛠️ Installation & Usage  
+## 📂 Project Structure
+- `digits_recognizer.py` → Main script containing GUI and ML model  
+- Uses **Scikit-Learn**, **Tkinter**, **OpenCV**, and **Matplotlib**  
 
-### 🔧 Prerequisites  
-Ensure you have **Python 3.x** and the required libraries installed:  
+---
+
+## 🖥️ GUI Preview
+![GUI Preview](https://via.placeholder.com/400x300.png?text=Digits+Recognizer+GUI)
+
+---
+
+## 🛠️ Installation & Setup
+
+### 🔧 Prerequisites
+Ensure you have **Python 3.x** installed. Then, install dependencies:
+
 ```sh
-pip install numpy matplotlib
+pip install numpy opencv-python matplotlib scikit-learn
 ```
 
-## 📊 Visualizing Data  
-
-Uncomment the following lines in `neural_net.py` to plot the dataset before training:  
-```
-python
-plt.scatter(feature_set[:,0], feature_set[:,1], c=labels, cmap='plasma', s=100, alpha=0.5)
-plt.show()
-```
 🌟 If you find this project useful, consider giving it a ⭐ Star on GitHub!
