@@ -29,10 +29,11 @@ Ensure you have **Python 3.x** and the required libraries installed:
 ```sh
 pip install numpy matplotlib
 
-##📊 Visualizing Data
+## 📊 Visualizing Data  
 
-Uncomment the following lines in neural_net.py to plot the dataset before training:
+Uncomment the following lines in `neural_net.py` to plot the dataset before training:  
 
+```python
 plt.scatter(feature_set[:,0], feature_set[:,1], c=labels, cmap='plasma', s=100, alpha=0.5)
 plt.show()
 
