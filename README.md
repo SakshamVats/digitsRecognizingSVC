@@ -28,13 +28,14 @@ A simple **feedforward neural network** built from scratch using **NumPy**. The 
 Ensure you have **Python 3.x** and the required libraries installed:  
 ```sh
 pip install numpy matplotlib
+```
 
 ## 📊 Visualizing Data  
 
 Uncomment the following lines in `neural_net.py` to plot the dataset before training:  
-
-```python
+```
+python
 plt.scatter(feature_set[:,0], feature_set[:,1], c=labels, cmap='plasma', s=100, alpha=0.5)
 plt.show()
-
+```
 🌟 If you find this project useful, consider giving it a ⭐ Star on GitHub!
